@@ -503,6 +503,30 @@ form button {
     padding: 1rem;
 }
 
+magazine-mode {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.magazine-mode .travel-article {
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.magazine-mode .lead {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #25364a;
+    color: white;
+}
+
+.magazine-mode .lead time {
+    color: #e8ad35;
+}
+
+.magazine-mode time {
+    margin-top: auto;
+}
+
 footer {
     margin-top: 4rem;
     padding: 2rem 5%;
